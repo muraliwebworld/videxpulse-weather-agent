@@ -87,7 +87,6 @@ The application uses the **VidexPulse Weather Agent** - a specialized fine-tuned
 | **Base Model** | Qwen 1.5B |
 | **Quantization** | 4-bit GGUF |
 | **Training Datasets** | 98,724+ weather query examples |
-| **Supported Cities** | 37 Tamil Nadu & Indian cities |
 | **Task** | Tool-Calling + Response Generation |
 | **Hugging Face Link** | [muraliwebworld/videxpulse-weather-agent](https://huggingface.co/muraliwebworld/videxpulse-weather-agent) |
 
@@ -210,17 +209,9 @@ ollama create videxpulse-weather-agent -f Modelfile
 ollama run videxpulse-weather-agent "What's the weather in Chennai tomorrow?"
 ```
 
-### Supported Cities (37 Total)
+### Supported Major cities
 
-**North Region:** Chennai, Pondicherry, Cuddalore, Villupuram, Kanchipuram, Chengalpattu, Arakkonam
-
-**West Region:** Coimbatore, Pollachi, Ooty, Coonoor, Tiruppur, Erode, Namakkal, Perundurai, Karur
-
-**South Region:** Madurai, Tirunelveli, Nagercoil, Kanyakumari, Theni, Dindigul
-
-**Central Region:** Salem, Krishnagiri, Dharmapuri, Hosur, Jolarpettai, Velur, Katpadi, Chinna Salem, Mettur, Mettupalayam
-
-**Special Stations:** Gobichettipalayam, Tiruchirappalli, Pudhukottai, Virudhunagar
+Supports all major cities around the world
 
 ## Setup Instructions
 
