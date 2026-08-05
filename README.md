@@ -1,4 +1,4 @@
-# VidexPulse Weather Agent 🌤️
+# VidexPulse Weather AI Agent 🌤️
 
 A modern full-stack weather intelligence application with ReactJS frontend and FastAPI backend, powered by a **fine-tuned Qwen AI model** for intelligent weather query understanding and tool-calling, plus real-time weather data integration.
 
