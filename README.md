@@ -209,7 +209,7 @@ ollama create videxpulse-weather-agent -f Modelfile
 ollama run videxpulse-weather-agent "What's the weather in Chennai tomorrow?"
 ```
 
-### Supported Major cities
+### Supported cities
 
 Supports all major cities around the world
 
