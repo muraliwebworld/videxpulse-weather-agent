@@ -24,7 +24,7 @@ class QueryRequest(BaseModel):
 async def fetch_weather_api_data(city_name: str) -> dict:
     """Queries WeatherAPI.com using your exact secure HTTPS pipeline keys."""
     # Hardcoded your active token string directly to prevent local file reading bugs
-    api_key = "46924e5c14644a3395f180201262807"
+    api_key = "<--- weather api key here --->"
     clean_city = city_name.lower().strip()
     
     # Secure HTTPS endpoint protocol format layout 
